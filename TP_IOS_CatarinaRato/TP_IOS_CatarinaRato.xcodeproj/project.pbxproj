@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		569B19182F3A0EBB00295EFD /* TP_IOS_CatarinaRatoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569B19162F3A0EBB00295EFD /* TP_IOS_CatarinaRatoApp.swift */; };
+		569B19192F3A0EBB00295EFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 569B19142F3A0EBB00295EFD /* Assets.xcassets */; };
+		569B192B2F3A0FB500295EFD /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569B192A2F3A0FB500295EFD /* Trip.swift */; };
+		569B192D2F3A0FF300295EFD /* TripListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569B192C2F3A0FF300295EFD /* TripListView.swift */; };
+		569B192F2F3A210A00295EFD /* TripViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569B192E2F3A210A00295EFD /* TripViewModel.swift */; };
+		569B19312F3A213600295EFD /* TripRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569B19302F3A213600295EFD /* TripRowView.swift */; };
+		569B19332F3A214600295EFD /* EditTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569B19322F3A214600295EFD /* EditTripView.swift */; };
+		569B19372F3A217400295EFD /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569B19362F3A217400295EFD /* AboutView.swift */; };
+		569B193B2F3A240E00295EFD /* AddTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569B193A2F3A240E00295EFD /* AddTripView.swift */; };
+		569B19712F3A37E000295EFD /* trips.json in Resources */ = {isa = PBXBuildFile; fileRef = 569B19702F3A37E000295EFD /* trips.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		569B19062F3A09F200295EFD /* TP_IOS_CatarinaRato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TP_IOS_CatarinaRato.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		569B19142F3A0EBB00295EFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		569B19162F3A0EBB00295EFD /* TP_IOS_CatarinaRatoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TP_IOS_CatarinaRatoApp.swift; sourceTree = "<group>"; };
+		569B192A2F3A0FB500295EFD /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		569B192C2F3A0FF300295EFD /* TripListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListView.swift; sourceTree = "<group>"; };
+		569B192E2F3A210A00295EFD /* TripViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripViewModel.swift; sourceTree = "<group>"; };
+		569B19302F3A213600295EFD /* TripRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripRowView.swift; sourceTree = "<group>"; };
+		569B19322F3A214600295EFD /* EditTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTripView.swift; sourceTree = "<group>"; };
+		569B19362F3A217400295EFD /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		569B193A2F3A240E00295EFD /* AddTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripView.swift; sourceTree = "<group>"; };
+		569B19702F3A37E000295EFD /* trips.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = trips.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		569B19082F3A09F200295EFD /* TP_IOS_CatarinaRato */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TP_IOS_CatarinaRato;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		569B19032F3A09F200295EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		569B18FD2F3A09F200295EFD = {
+			isa = PBXGroup;
+			children = (
+				569B19162F3A0EBB00295EFD /* TP_IOS_CatarinaRatoApp.swift */,
+				569B19082F3A09F200295EFD /* TP_IOS_CatarinaRato */,
+				569B19142F3A0EBB00295EFD /* Assets.xcassets */,
+				569B192A2F3A0FB500295EFD /* Trip.swift */,
+				569B192E2F3A210A00295EFD /* TripViewModel.swift */,
+				569B192C2F3A0FF300295EFD /* TripListView.swift */,
+				569B19302F3A213600295EFD /* TripRowView.swift */,
+				569B193A2F3A240E00295EFD /* AddTripView.swift */,
+				569B19322F3A214600295EFD /* EditTripView.swift */,
+				569B19362F3A217400295EFD /* AboutView.swift */,
+				569B19702F3A37E000295EFD /* trips.json */,
+				569B19072F3A09F200295EFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		569B19072F3A09F200295EFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				569B19062F3A09F200295EFD /* TP_IOS_CatarinaRato.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		569B19052F3A09F200295EFD /* TP_IOS_CatarinaRato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 569B19112F3A09F500295EFD /* Build configuration list for PBXNativeTarget "TP_IOS_CatarinaRato" */;
+			buildPhases = (
+				569B19022F3A09F200295EFD /* Sources */,
+				569B19032F3A09F200295EFD /* Frameworks */,
+				569B19042F3A09F200295EFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				569B19082F3A09F200295EFD /* TP_IOS_CatarinaRato */,
+			);
+			name = TP_IOS_CatarinaRato;
+			packageProductDependencies = (
+			);
+			productName = TP_IOS_CatarinaRato;
+			productReference = 569B19062F3A09F200295EFD /* TP_IOS_CatarinaRato.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		569B18FE2F3A09F200295EFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					569B19052F3A09F200295EFD = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = 569B19012F3A09F200295EFD /* Build configuration list for PBXProject "TP_IOS_CatarinaRato" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 569B18FD2F3A09F200295EFD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 569B19072F3A09F200295EFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				569B19052F3A09F200295EFD /* TP_IOS_CatarinaRato */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		569B19042F3A09F200295EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569B19712F3A37E000295EFD /* trips.json in Resources */,
+				569B19192F3A0EBB00295EFD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		569B19022F3A09F200295EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569B19312F3A213600295EFD /* TripRowView.swift in Sources */,
+				569B193B2F3A240E00295EFD /* AddTripView.swift in Sources */,
+				569B192F2F3A210A00295EFD /* TripViewModel.swift in Sources */,
+				569B19332F3A214600295EFD /* EditTripView.swift in Sources */,
+				569B19372F3A217400295EFD /* AboutView.swift in Sources */,
+				569B19182F3A0EBB00295EFD /* TP_IOS_CatarinaRatoApp.swift in Sources */,
+				569B192B2F3A0FB500295EFD /* Trip.swift in Sources */,
+				569B192D2F3A0FF300295EFD /* TripListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		569B190F2F3A09F500295EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		569B19102F3A09F500295EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		569B19122F3A09F500295EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CR.TP-IOS-CatarinaRato";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		569B19132F3A09F500295EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CR.TP-IOS-CatarinaRato";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		569B19012F3A09F200295EFD /* Build configuration list for PBXProject "TP_IOS_CatarinaRato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				569B190F2F3A09F500295EFD /* Debug */,
+				569B19102F3A09F500295EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		569B19112F3A09F500295EFD /* Build configuration list for PBXNativeTarget "TP_IOS_CatarinaRato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				569B19122F3A09F500295EFD /* Debug */,
+				569B19132F3A09F500295EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 569B18FE2F3A09F200295EFD /* Project object */;
+}

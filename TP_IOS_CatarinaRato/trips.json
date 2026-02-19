@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "nome": "Paris Romântica",
+    "destino": "Paris, França",
+    "periodo": "Março de 2026",
+    "tipo": "Lazer",
+    "descricao": "Viagem de lazer à cidade de Paris, com visitas à Torre Eiffel, Museu do Louvre e passeios ao longo do Rio Sena. O objetivo é explorar a vertente cultural e romântica da cidade, bem como a sua gastronomia.",
+    "imagem": "paris"
+  },
+  {
+    "id": 2,
+    "nome": "Londres Profissional",
+    "destino": "Londres, Reino Unido",
+    "periodo": "Abril de 2026",
+    "tipo": "Trabalho",
+    "descricao": "Viagem de trabalho a Londres para participação numa conferência internacional de tecnologia. Inclui reuniões profissionais, networking e visitas a empresas parceiras, com algum tempo reservado para turismo.",
+    "imagem": "london"
+  },
+  {
+    "id": 3,
+    "nome": "Férias no Algarve",
+    "destino": "Algarve, Portugal",
+    "periodo": "Verão de 2026",
+    "tipo": "Família",
+    "descricao": "Viagem em família ao Algarve durante o verão, focada em descanso e lazer. Inclui atividades na praia, passeios de barco, visitas a grutas e momentos de convívio familiar.",
+    "imagem": "algarve"
+  },
+  {
+    "id": 4,
+    "nome": "Aventura nos Alpes",
+    "destino": "Alpes Suíços",
+    "periodo": "Janeiro de 2027",
+    "tipo": "Aventura",
+    "descricao": "Viagem de aventura aos Alpes Suíços, planeada para a prática de caminhadas de montanha, escalada e exploração de trilhos naturais. Destinada a amantes da natureza e do desporto ao ar livre.",
+    "imagem": "alpes"
+  },
+  {
+    "id": 5,
+    "nome": "Roteiro Cultural em Roma",
+    "destino": "Roma, Itália",
+    "periodo": "Outubro de 2026",
+    "tipo": "Cultural",
+    "descricao": "Viagem cultural à cidade de Roma com o objetivo de visitar monumentos históricos como o Coliseu, o Fórum Romano e o Vaticano. Focada na história, arte e património cultural.",
+    "imagem": "roma"
+  }
+]
