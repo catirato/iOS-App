@@ -1,9 +1,8 @@
-```markdown
 # ✈️ Viagens CatPower
 
-**Viagens CatPower** é uma aplicação iOS desenvolvida em **Swift** e **SwiftUI** que permite ao utilizador planear e gerir viagens de forma simples e visual.
+**Viagens CatPower** é uma aplicação iOS desenvolvida em **Swift** e **SwiftUI** que permite ao utilizador planear e gerir viagens de forma simples, visual e organizada.
 
-A aplicação permite listar viagens planeadas, criar novas viagens, editar viagens existentes e remover viagens da lista. Os dados iniciais são carregados a partir de um ficheiro **JSON**, sendo depois manipulados **em memória** durante a execução da aplicação.
+A aplicação permite visualizar viagens planeadas, adicionar novas viagens, editar viagens existentes e remover viagens da lista. Os dados iniciais são carregados a partir de um ficheiro **JSON**, sendo depois manipulados **em memória** durante a execução da aplicação.
 
 Este projeto foi desenvolvido no âmbito da unidade curricular de **iOS Development**.
 
@@ -11,30 +10,30 @@ Este projeto foi desenvolvido no âmbito da unidade curricular de **iOS Developm
 
 # 📱 Screenshots
 
-## Ecrã Principal
-![Lista de Viagens](screenshots/trip_list.png)
+### Lista de Viagens
+![Trip List](screenshots/trip_list.png)
 
-## Criar Nova Viagem
-![Adicionar Viagem](screenshots/add_trip.png)
+### Criar Nova Viagem
+![Add Trip](screenshots/add_trip.png)
 
-## Editar Viagem
-![Editar Viagem](screenshots/edit_trip.png)
+### Editar Viagem
+![Edit Trip](screenshots/edit_trip.png)
 
-## Sobre a Aplicação
+### Sobre a Aplicação
 ![About](screenshots/about.png)
 
 ---
 
-# 📱 Funcionalidades
+# 📋 Funcionalidades
 
-- 📋 Visualização de uma lista de viagens
-- ➕ Criação de novas viagens
-- ✏️ Edição de viagens existentes
-- 🗑️ Remoção individual de viagens
-- 🧹 Remoção de todas as viagens da lista
-- 🖼️ Seleção de imagem representativa da viagem
-- 🧭 Seleção do tipo de viagem (Lazer, Trabalho, Família, Aventura ou Cultural)
-- ℹ️ Vista **About** com informação sobre a aplicação
+- Visualização de uma lista de viagens
+- Criação de novas viagens
+- Edição de viagens existentes
+- Remoção individual de viagens
+- Remoção de todas as viagens da lista
+- Seleção de imagem representativa da viagem
+- Seleção do tipo de viagem (Lazer, Trabalho, Família, Aventura ou Cultural)
+- Vista **About** com informação sobre a aplicação
 
 ---
 
@@ -59,21 +58,12 @@ Os dados são carregados a partir de um ficheiro **JSON** incluído no bundle da
 A aplicação segue o padrão **MVVM (Model–View–ViewModel)**.
 
 ### Model
-```
-
-Trip.swift
-
-```
+- `Trip.swift`
 
 ### ViewModel
-```
-
-TripViewModel.swift
-
-```
+- `TripViewModel.swift`
 
 Principais métodos:
-
 - `loadTripsFromJSON()`
 - `addTrip()`
 - `updateTrip()`
@@ -81,15 +71,11 @@ Principais métodos:
 - `deleteAllTrips()`
 
 ### Views
-```
-
-TripListView.swift
-TripRowView.swift
-AddTripView.swift
-EditTripView.swift
-AboutView.swift
-
-```
+- `TripListView.swift`
+- `TripRowView.swift`
+- `AddTripView.swift`
+- `EditTripView.swift`
+- `AboutView.swift`
 
 ---
 
@@ -108,4 +94,3 @@ AboutView.swift
 **Catarina Rato**
 
 Projeto desenvolvido para fins académicos.
-```
