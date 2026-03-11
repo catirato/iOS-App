@@ -10,18 +10,12 @@ Este projeto foi desenvolvido no âmbito da unidade curricular de **iOS Developm
 
 # 📱 Screenshots
 
-### Lista de Viagens
-![Trip List](screenshots/trip_list.png)
-
-### Criar Nova Viagem
-![Add Trip](screenshots/add_trip.png)
-
-### Editar Viagem
-![Edit Trip](screenshots/edit_trip.png)
-
-### Sobre a Aplicação
-![About](screenshots/about.png)
-
+<p align="center">
+  <img src="screenshots/trip_list.png" width="180">
+  <img src="screenshots/add_trip.png" width="180">
+  <img src="screenshots/edit_trip.png" width="180">
+  <img src="screenshots/about.png" width="180">
+</p>
 ---
 
 # 📋 Funcionalidades
