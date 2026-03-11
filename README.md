@@ -1,6 +1,111 @@
-# iOS-App - Viagens CatPower
+```markdown
+# ✈️ Viagens CatPower
 
-Viagens CatPower é uma aplicação iOS desenvolvida em Swift e SwiftUI para planeamento e gestão de viagens. A app permite visualizar uma lista de viagens, adicionar novas viagens, editar viagens existentes e remover uma ou todas as viagens da lista.
-Os dados iniciais são carregados a partir de um ficheiro JSON, onde cada viagem contém informação como nome, destino, período, tipo de viagem, descrição e imagem representativa. As alterações feitas pelo utilizador são geridas em memória, durante a execução da aplicação.
-O projeto foi organizado com base no padrão MVVM, separando a lógica de dados da interface. A aplicação inclui ainda utilização de SF Symbols, navegação com NavigationStack, formulários para criação e edição de viagens e uma vista About com informações sobre a app.
-Este projeto foi desenvolvido no âmbito da unidade curricular de iOS, com foco na aplicação de boas práticas de desenvolvimento em SwiftUI.
+**Viagens CatPower** é uma aplicação iOS desenvolvida em **Swift** e **SwiftUI** que permite ao utilizador planear e gerir viagens de forma simples e visual.
+
+A aplicação permite listar viagens planeadas, criar novas viagens, editar viagens existentes e remover viagens da lista. Os dados iniciais são carregados a partir de um ficheiro **JSON**, sendo depois manipulados **em memória** durante a execução da aplicação.
+
+Este projeto foi desenvolvido no âmbito da unidade curricular de **iOS Development**.
+
+---
+
+# 📱 Screenshots
+
+## Ecrã Principal
+![Lista de Viagens](screenshots/trip_list.png)
+
+## Criar Nova Viagem
+![Adicionar Viagem](screenshots/add_trip.png)
+
+## Editar Viagem
+![Editar Viagem](screenshots/edit_trip.png)
+
+## Sobre a Aplicação
+![About](screenshots/about.png)
+
+---
+
+# 📱 Funcionalidades
+
+- 📋 Visualização de uma lista de viagens
+- ➕ Criação de novas viagens
+- ✏️ Edição de viagens existentes
+- 🗑️ Remoção individual de viagens
+- 🧹 Remoção de todas as viagens da lista
+- 🖼️ Seleção de imagem representativa da viagem
+- 🧭 Seleção do tipo de viagem (Lazer, Trabalho, Família, Aventura ou Cultural)
+- ℹ️ Vista **About** com informação sobre a aplicação
+
+---
+
+# 🗂 Estrutura dos Dados
+
+Cada viagem contém:
+
+- `id`
+- `nome`
+- `destino`
+- `periodo`
+- `tipo`
+- `descricao`
+- `imagem`
+
+Os dados são carregados a partir de um ficheiro **JSON** incluído no bundle da aplicação.
+
+---
+
+# 🏗 Arquitetura
+
+A aplicação segue o padrão **MVVM (Model–View–ViewModel)**.
+
+### Model
+```
+
+Trip.swift
+
+```
+
+### ViewModel
+```
+
+TripViewModel.swift
+
+```
+
+Principais métodos:
+
+- `loadTripsFromJSON()`
+- `addTrip()`
+- `updateTrip()`
+- `deleteTrip()`
+- `deleteAllTrips()`
+
+### Views
+```
+
+TripListView.swift
+TripRowView.swift
+AddTripView.swift
+EditTripView.swift
+AboutView.swift
+
+```
+
+---
+
+# 🛠 Tecnologias Utilizadas
+
+- Swift
+- SwiftUI
+- JSON
+- Xcode
+- SF Symbols
+
+---
+
+# 👩‍💻 Autor
+
+**Catarina Rato**
+
+Projeto desenvolvido para fins académicos.
+```
