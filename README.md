@@ -1,10 +1,10 @@
 # ✈️ Viagens CatPower
 
-**Viagens CatPower** é uma aplicação iOS desenvolvida em **Swift** e **SwiftUI** que permite ao utilizador planear e gerir viagens de forma simples, visual e organizada.
+**Viagens CatPower** is an iOS application developed in **Swift** and **SwiftUI** that allows users to plan and manage trips in a simple, visual, and organized way.
 
-A aplicação permite visualizar viagens planeadas, adicionar novas viagens, editar viagens existentes e remover viagens da lista. Os dados iniciais são carregados a partir de um ficheiro **JSON**, sendo depois manipulados **em memória** durante a execução da aplicação.
+The application allows users to view planned trips, add new trips, edit existing ones, and remove trips from the list. The initial data is loaded from a **JSON** file and then manipulated **in memory** during the application's execution.
 
-Este projeto foi desenvolvido no âmbito da unidade curricular de **iOS Development**.
+This project was developed as part of the **iOS Development** course.
 
 ---
 
@@ -16,40 +16,41 @@ Este projeto foi desenvolvido no âmbito da unidade curricular de **iOS Developm
   <img src="screenshots/edit_trip.png" width="180">
   <img src="screenshots/about.png" width="180">
 </p>
----
-
-# 📋 Funcionalidades
-
-- Visualização de uma lista de viagens
-- Criação de novas viagens
-- Edição de viagens existentes
-- Remoção individual de viagens
-- Remoção de todas as viagens da lista
-- Seleção de imagem representativa da viagem
-- Seleção do tipo de viagem (Lazer, Trabalho, Família, Aventura ou Cultural)
-- Vista **About** com informação sobre a aplicação
 
 ---
 
-# 🗂 Estrutura dos Dados
+# 📋 Features
 
-Cada viagem contém:
+- View a list of trips
+- Create new trips
+- Edit existing trips
+- Delete individual trips
+- Delete all trips from the list
+- Select a representative image for the trip
+- Choose the trip type (Leisure, Work, Family, Adventure, or Cultural)
+- **About** view with information about the application
+
+---
+
+# 🗂 Data Structure
+
+Each trip contains:
 
 - `id`
-- `nome`
-- `destino`
-- `periodo`
-- `tipo`
-- `descricao`
-- `imagem`
+- `name`
+- `destination`
+- `period`
+- `type`
+- `description`
+- `image`
 
-Os dados são carregados a partir de um ficheiro **JSON** incluído no bundle da aplicação.
+The data is loaded from a **JSON** file included in the application's bundle.
 
 ---
 
-# 🏗 Arquitetura
+# 🏗 Architecture
 
-A aplicação segue o padrão **MVVM (Model–View–ViewModel)**.
+The application follows the **MVVM (Model–View–ViewModel)** pattern.
 
 ### Model
 - `Trip.swift`
@@ -57,7 +58,7 @@ A aplicação segue o padrão **MVVM (Model–View–ViewModel)**.
 ### ViewModel
 - `TripViewModel.swift`
 
-Principais métodos:
+Main methods:
 - `loadTripsFromJSON()`
 - `addTrip()`
 - `updateTrip()`
@@ -73,7 +74,7 @@ Principais métodos:
 
 ---
 
-# 🛠 Tecnologias Utilizadas
+# 🛠 Technologies Used
 
 - Swift
 - SwiftUI
@@ -83,8 +84,8 @@ Principais métodos:
 
 ---
 
-# 👩‍💻 Autor
+# 👩‍💻 Author
 
 **Catarina Rato**
 
-Projeto desenvolvido para fins académicos.
+Project developed for academic purposes.
